@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Objetos</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="quad_p">
+            <div id="class_a" class="text1">
+                <h1>Confirme para responder!</h1>
+                <p>A cada confirmação, novas informações serão adicionadas</p>
+            </div>
+
+            <div id="class_b" class="text2">
+                <h1>Você quer responder o questionario?</h1>
+                <p>Clique no botão abaixo</p>
+            </div>
+
+            <div class="text2">
+                <button id="btn-iniciar">INICIAR</button>
+            </div>
+
+            <div id="quad_resultados" class="quad_resultados" style="display: none;"></div>
+
+            <div id="confirmacao" class="container" style="display: none;">
+                <div class="slider" id="slider"></div>
+                <div class="text">Arraste para confirmar</div>
+            </div>
+
+            <div id="btn_enviar" class="text3" style="display: none;">
+                <button id="btn-enviar">ENVIAR</button>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
